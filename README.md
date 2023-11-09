@@ -3,7 +3,7 @@
 This script iterates through all run folders within a session folder, creates a new folder ("NIFTI") 
 for dcm2niix output, then runs the dcm2niix program if there are no nifti files in this subfolder.
 
-NOTE: You will need dcm2niix installed on the device you are running this script from, and dcm2niix MUST 
+NOTE: You will need dcm2niix (https://github.com/rordenlab/dcm2niix/releases) installed on the device you are running this script from, and dcm2niix MUST 
 be executable and added to your PATH. Once you install dcm2niix (it will come to you as a shell file), move the
 file into a folder called dcm2niix_folder. In Terminal, go to this folder and enter the following line of code
 
