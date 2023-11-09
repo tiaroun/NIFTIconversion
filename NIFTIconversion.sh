@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Written by Tiara Bounyarith 
+#Written by Tiara Bounyarith (2023)
 
 #This script iterates through all run folders within a session folder, creates a new folder ("NIFTI") 
 #for dcm2niix output, then runs the dcm2niix program if there are no nifti files in this subfolder.
@@ -12,7 +12,6 @@
 
 #Navigate to your bash profile (this will be a text file that is located under your user folder 
 #on your device) and add the following three lines to the very end of this file (replace tb3344 with your own user folder name)
-## Setting PATH for dcm2niix
 #PATH="/Users/tb3344/Desktop/dcm2niix_folder:${PATH}"
 #export PATH
 
