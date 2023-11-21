@@ -21,6 +21,7 @@ export PATH
 NOTE: if you do not already have a .bash_profile text file within your user folder, you can create one in Terminal by entering the following code
 
 cd ~
+
 touch .bash_profile
 
 
